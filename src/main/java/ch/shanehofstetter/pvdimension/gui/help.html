@@ -1,0 +1,104 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<div class="data">
+    <h2>Eingaben:</h2>
+    <fieldset>
+        <legend><h3>Photovoltaik-Anlage</h3></legend>
+        <ul>
+            <li><h4>Photovoltaik-Panel</h4></li>
+            <li><b>Anzahl:</b> Anzahl der eingesetzten Photovoltaik-Panels</li>
+            <li><b>Grösse:</b> Die Grösse eines einzelnen Panels [m<sup>2</sup>]</li>
+            <li><b>Wirkungsgrad:</b> Wirkungsgrad eines Panels bei Standard-Test-Bedingungen (STC), vom Hersteller
+                angegeben.
+            </li>
+            <li><b>Aufstellwinkel:</b> Aufstellwinkel der Solarpanel, von 0&deg; (horizontal liegend) bis 90&deg;
+                (vertikal stehend)
+            </li>
+            <li><b>Azimut:</b> Ausrichtung des Panels | 0 &deg; entspricht Süden | "+" Richtung Westen | "-" Richtung
+                Osten.
+            </li>
+        </ul>
+        <ul>
+            <li><h4>Batterie</h4></li>
+            <li><b>Kapazität:</b> Speicherkapazität [kWh]</li>
+            <li><b>Anfangs-Ladezustand:</b> Zustand der Batterie bei Simulationsstart [kWh]</li>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend><h3>Simulations-Daten</h3></legend>
+        <ul>
+            <li><h4>Einstellungen</h4></li>
+            <li><b>Monat:</b> Der Wochenverlauf wird für den ausgewählten Monat angezeigt.</li>
+            <li><b>Manuelle Eingabe der Sonneneinstrahlung:</b> Die Sonneneinstrahlung muss unter "Sonneneinstrahlung"
+                manuell eingegeben werden.
+            </li>
+            <li><b>Automatische Eingabe der Sonneneinstrahlung:</b> Die Sonneneinstrahlungsdaten werden automatisch
+                ermittelt (Internetverbindung benötigt).
+            </li>
+        </ul>
+        <ul>
+            <li><h4>Stromverbrauch</h4></li>
+            <li><b>Täglich:</b> Wenn aktiv müssen die Daten für jeden Tag einzeln eingegeben werden.</li>
+            <li><b>Stromverbrauch [TAG]:</b> Die Punkte im Diagramm lassen sich per Mauszeiger verschieben. Klicken und
+                auf den gewünschten Wert ziehen.
+            </li>
+        </ul>
+        <ul>
+            <li><h4>Sonneneinstrahlung</h4></li>
+            <li><b>Täglich:</b> Wenn aktiv müssen die Daten für jeden Tag einzeln eingegeben werden.</li>
+            <li><b>Sonneneinstrahlung [TAG]:</b> Die Punkte im Diagramm lassen sich per Mauszeiger verschieben. Klicken
+                und auf den gewünschten Wert ziehen.
+            </li>
+        </ul>
+        <ul>
+            <li><h4>Anlagenstandort</h4></li>
+            <li>Nur aktiv wenn <i>"Automatische Ermittlung der Sonneneinstrahlung" aktiviert ist.</i></li>
+            <li><b>Adresse:</b> Die Adresse des Standortes der zu berechnenden Anlage.</li>
+            <li><b>Koordinaten:</b> Die Koordinaten werden via Web-Service ermittelt, anhand von ihnen werden dann die
+                Einstrahlungsdaten abgefragt.
+            </li>
+        </ul>
+    </fieldset>
+</div>
+
+<style>
+    body{
+    font-family:Arial;}
+    .container{
+    width:96%;
+    margin:auto;
+    }
+    .data ul{
+    padding:15px;
+    margin:auto;
+    margin-bottom:15px;
+    box-shadow:0px 0px 4px #888888;
+    display:block;
+    }
+    .data li{
+    border-bottom:1px solid #F1F1F1;
+    list-style-type:none;
+    line-height:30px;
+    }
+    li:first-child,li:last-child{
+    border-bottom:none;
+    }
+    h4{
+    margin:10px 0px;
+    font-size:16px;
+    border-bottom:1px solid #383737;
+    }
+    b{
+    color:#383737;
+    display:block;
+    }
+    fieldset{
+    margin-bottom:30px;
+    }
+
+</style>
+</body>
+</html>
