@@ -10,7 +10,7 @@ This tool was created during my studies as a school project in 2015. **No guaran
 It is a GUI application with which a PV system can be dimensioned.
 The calculation is based on the existing roof area, the power consumption profile and the weather data.
 
-<img width="1512" alt="image" src="https://user-images.githubusercontent.com/13404717/198888913-abdfa44a-2a81-4efe-acfb-ab24d561f342.png">
+<img width="1512" alt="image" src="https://user-images.githubusercontent.com/13404717/198888993-8578f0b3-ee71-4e16-af4c-204b1d42d211.png">
 
 ## Features
 - configure solar panel amount, size, efficiency, angles
