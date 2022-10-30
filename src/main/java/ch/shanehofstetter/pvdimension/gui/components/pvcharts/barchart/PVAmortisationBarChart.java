@@ -9,10 +9,7 @@ import javafx.scene.chart.XYChart;
 import java.util.ArrayList;
 import java.util.Currency;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.pvcharts
- */
+
 public class PVAmortisationBarChart extends ExtendedBarChart {
     private PVChartSeriesConverter pvChartSeriesConverter = new PVChartSeriesConverter();
 

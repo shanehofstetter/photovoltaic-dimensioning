@@ -25,9 +25,6 @@ import java.util.Locale;
 /**
  * PVReportCreator generates a PDF Report covering all important information
  * about the simulated PV-Generator
- * <p>
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.io.pdfexport
  */
 public class PVReportCreator {
     private File outputFile;

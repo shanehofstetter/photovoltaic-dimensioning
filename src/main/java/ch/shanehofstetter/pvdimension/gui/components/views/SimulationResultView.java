@@ -12,10 +12,7 @@ import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 import javafx.scene.layout.VBox;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.views
- */
+
 public class SimulationResultView extends VTitledPane {
     private Insets defaultInsets = new Insets(5, 5, 5, 5);
 

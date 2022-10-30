@@ -8,10 +8,7 @@ import ch.shanehofstetter.pvdimension.simulation.dataholder.PVYear;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.simulation
- */
+
 public class PVAmortizationCalculator {
 
     private PVYear pvYear;

@@ -6,10 +6,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.controllers
- */
+
 public class SunpowerInputModeController extends SunpowerInputModeView {
 
     static final Logger logger = LogManager.getLogger();

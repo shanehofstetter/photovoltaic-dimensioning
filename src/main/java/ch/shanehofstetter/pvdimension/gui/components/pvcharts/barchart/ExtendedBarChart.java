@@ -11,10 +11,7 @@ import javafx.scene.chart.XYChart;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.text.Text;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.pvcharts.barchart
- */
+
 public class ExtendedBarChart extends BorderPane {
     protected final CategoryAxis xAxis = new CategoryAxis();
     protected final NumberAxis yAxis = new NumberAxis();

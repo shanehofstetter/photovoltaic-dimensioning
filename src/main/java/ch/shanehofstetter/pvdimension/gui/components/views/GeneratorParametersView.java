@@ -10,10 +10,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.views
- */
+
 public class GeneratorParametersView extends BorderPane {
 
     protected Button okButton;

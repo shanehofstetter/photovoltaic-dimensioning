@@ -11,10 +11,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Currency;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.controllers
- */
+
 public class PowerPriceController extends PowerPriceView {
     static final Logger logger = LogManager.getLogger();
     private PowerPrice powerPrice;

@@ -3,10 +3,6 @@ package ch.shanehofstetter.pvdimension.simulation.dataholder;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.simulation.dataholder
- */
 public class PVAmortizationTimeElement implements Serializable {
     private int year;
     private BigDecimal revenue;

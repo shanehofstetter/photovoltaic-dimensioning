@@ -8,10 +8,7 @@ import javafx.scene.control.TitledPane;
 import javafx.scene.layout.GridPane;
 
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components
- */
+
 public class AddressView extends TitledPane {
 
     protected TextField streetField;

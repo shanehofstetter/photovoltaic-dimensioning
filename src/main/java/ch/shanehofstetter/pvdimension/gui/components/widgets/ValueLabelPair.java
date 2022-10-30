@@ -4,10 +4,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.Tooltip;
 import javafx.scene.layout.HBox;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.widgets
- */
+
 public class ValueLabelPair extends HBox {
     protected Label titleLabel;
     protected Label valueLabel;

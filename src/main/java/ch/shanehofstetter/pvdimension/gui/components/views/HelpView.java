@@ -6,9 +6,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.web.WebView;
 
-/**
- * Created by smueller on 25.01.16.
- */
+
 public class HelpView extends Alert {
     public HelpView() {
         super(Alert.AlertType.INFORMATION);

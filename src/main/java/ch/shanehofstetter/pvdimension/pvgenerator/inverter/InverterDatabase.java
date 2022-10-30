@@ -2,10 +2,6 @@ package ch.shanehofstetter.pvdimension.pvgenerator.inverter;
 
 import java.util.ArrayList;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.pvgenerator.inverter
- */
 public class InverterDatabase {
 
     private static ArrayList<Inverter> inverters;

@@ -1,9 +1,6 @@
 package ch.shanehofstetter.pvdimension.gui.components.controllers;
 
-/**
- * Author: Shane Hofstetter - shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.controllers
- */
+
 public enum UserDataStatus {
     DIRTY,
     UNCHANGED;

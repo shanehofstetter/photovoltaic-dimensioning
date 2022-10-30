@@ -10,10 +10,7 @@ import java.util.Currency;
 import java.util.List;
 import java.util.Objects;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.controllers
- */
+
 public class EconomicSettingsController extends EconomicSettingsView {
 
     private List<Currency> currencies = new ArrayList<>();

@@ -21,10 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.pvcharts
- */
+
 public class PVWeeklyInputChart extends VBox implements PVDayInputLineChart.PVDayInputChartListener {
     static final Logger logger = LogManager.getLogger();
 

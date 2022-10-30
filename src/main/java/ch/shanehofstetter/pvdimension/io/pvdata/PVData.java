@@ -7,9 +7,6 @@ import java.io.Serializable;
 
 /**
  * Storage for complete project-specific data to serialize and write to a single file
- *
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.io.pvdata
  */
 public class PVData implements Serializable {
     private PVGenerator pvGenerator;

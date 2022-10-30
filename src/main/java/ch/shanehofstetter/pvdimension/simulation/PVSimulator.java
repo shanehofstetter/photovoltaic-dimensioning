@@ -10,8 +10,6 @@ import java.util.ArrayList;
 /**
  * abstract simulator class providing basic members and an implementation of some listener-callers
  *
- * @author Shane Hofstetter - shane.hofstetter@gmail.com<br>
- *         ch.shanehofstetter.pvdimension.simulation
  */
 public abstract class PVSimulator {
     static final Logger logger = LogManager.getLogger();

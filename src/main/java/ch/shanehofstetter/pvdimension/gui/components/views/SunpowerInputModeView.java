@@ -6,10 +6,7 @@ import javafx.scene.control.ToggleGroup;
 import javafx.scene.control.Tooltip;
 import javafx.scene.layout.HBox;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components
- */
+
 public class SunpowerInputModeView extends HBox {
 
     protected RadioButton manualButton;

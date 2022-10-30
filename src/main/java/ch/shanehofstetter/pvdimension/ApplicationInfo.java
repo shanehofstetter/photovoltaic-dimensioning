@@ -5,9 +5,6 @@ import javafx.scene.image.Image;
 
 /**
  * Application Info stores general information about the application like strings, icons, etc.
- *
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension
  */
 public class ApplicationInfo {
     public static final String APPLICATION_TITLE_LONG = "Photovoltaik Ertrags-Simulation und Dimensionierung";
@@ -16,7 +13,7 @@ public class ApplicationInfo {
     public static final String APPLICATION_ABOUT_TEXT = "Build: \n" + BuildInfo.VERSION_NUMBER + "\n" + BuildInfo.BUILD_TIME
             + "\n\nEntwickler:\n"
             + "Shane Hofstetter \t shane.hofstetter@gmail.com\n"
-            + "Simon Müller \t\t simon.d.mueller@gmail.com";
+            + "Simon Müller";
     public static final String APPLICATION_ICON_NAME = "pvdimension_icon_128.png";
     public static Image APPLICATION_IMAGE;
 

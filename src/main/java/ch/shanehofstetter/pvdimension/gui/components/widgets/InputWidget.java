@@ -1,7 +1,4 @@
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension
- */
+
 package ch.shanehofstetter.pvdimension.gui.components.widgets;
 
 import javafx.geometry.Insets;
@@ -18,9 +15,7 @@ import org.apache.logging.log4j.Logger;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author Simon Müller
- */
+
 public class InputWidget extends HBox {
 
     static final Logger logger = LogManager.getLogger();

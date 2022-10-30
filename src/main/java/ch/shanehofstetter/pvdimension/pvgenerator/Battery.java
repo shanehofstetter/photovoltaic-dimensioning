@@ -7,9 +7,6 @@ import java.math.BigDecimal;
 
 /**
  * Battery
- *
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension
  */
 public class Battery implements Serializable {
     private double capacityWh;

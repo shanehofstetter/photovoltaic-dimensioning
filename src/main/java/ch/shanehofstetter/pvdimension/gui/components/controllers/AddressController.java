@@ -9,10 +9,6 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components
- */
 public class AddressController extends AddressView {
     private static final Logger logger = LogManager.getLogger();
     private static final Address DEFAULT_ADDRESS = new Address("", "", "Baden", "", "Schweiz");

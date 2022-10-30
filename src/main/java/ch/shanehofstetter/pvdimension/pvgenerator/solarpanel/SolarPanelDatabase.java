@@ -3,10 +3,6 @@ package ch.shanehofstetter.pvdimension.pvgenerator.solarpanel;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.pvgenerator.solarpanel
- */
 public class SolarPanelDatabase {
 
     private static ObservableList<SolarPanel> solarPanels;

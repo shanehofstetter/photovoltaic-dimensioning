@@ -10,8 +10,6 @@ import javafx.scene.layout.VBox;
 /**
  * With this tiny class it's possible to add take a ChartSnapshot
  * to get the Chartimage Back use the getter function getImage()
- *
- * @author Simon Müller : smueller@xiag.ch
  */
 public class ChartSnapshot {
 

@@ -11,8 +11,7 @@ import java.util.ArrayList;
 /**
  * Extended Class for easier use of the AreaChart
  * <p>
- * Author: Shane Hofstetter - shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.pvcharts.linechart
+ *
  */
 public class ExtendedAreaChart extends AreaChart<String, Number> {
 

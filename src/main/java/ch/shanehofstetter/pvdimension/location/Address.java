@@ -2,10 +2,7 @@ package ch.shanehofstetter.pvdimension.location;
 
 import java.io.Serializable;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension
- */
+
 public class Address implements Serializable {
     private String street;
     private String streetNumber;

@@ -6,8 +6,7 @@ import java.math.BigDecimal;
 /**
  * PowerPrice specifies the costs of an amount of power when selling and buying<br>
  *
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.economy
+ *
  */
 public class PowerPrice implements Serializable {
     private String powerUnit;

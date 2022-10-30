@@ -3,10 +3,7 @@ package ch.shanehofstetter.pvdimension.gui.components.views;
 import ch.shanehofstetter.pvdimension.gui.components.widgets.InputWidget;
 import javafx.scene.layout.VBox;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components
- */
+
 public class BatteryView extends VBox {
 
     protected static double DEFAULT_BATTERY_CAPACITY_KWH = 5;

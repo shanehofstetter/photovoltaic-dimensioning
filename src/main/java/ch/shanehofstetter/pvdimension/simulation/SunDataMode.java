@@ -1,9 +1,6 @@
 package ch.shanehofstetter.pvdimension.simulation;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- *         ch.shanehofstetter.pvdimension.simulation
- */
+
 public enum SunDataMode {
     /**
      * local mode: user specifies the sun-data himself

@@ -4,10 +4,6 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.simulation.dataholder
- */
 public class PVAmortizationTime implements Serializable {
 
     private double amortisationTimeYears;

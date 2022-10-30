@@ -8,10 +8,7 @@ import javafx.stage.Stage;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.controllers
- */
+
 public class GeneratorParametersController extends GeneratorParametersView {
     private PVGenerator pvGenerator;
     private List<GeneratorParametersControllerListener> listeners = new ArrayList<>();

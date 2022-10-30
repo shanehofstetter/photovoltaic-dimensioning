@@ -9,10 +9,7 @@ import java.time.format.TextStyle;
 import java.util.ArrayList;
 import java.util.Locale;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.controllers
- */
+
 public class SimulationDataController extends SimulationDataView {
 
     static final Logger logger = LogManager.getLogger();

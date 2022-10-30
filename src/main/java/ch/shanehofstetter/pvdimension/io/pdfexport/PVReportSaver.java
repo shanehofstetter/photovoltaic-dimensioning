@@ -14,9 +14,6 @@ import java.util.ArrayList;
 /**
  * Report Saver shows a file chooser dialog, generates the pdf using
  * PVReportCreator and writes the file to the selected location
- *
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.io.pvdata
  */
 public class PVReportSaver extends PVFileDialog {
 

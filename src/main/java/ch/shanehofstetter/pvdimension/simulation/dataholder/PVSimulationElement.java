@@ -9,10 +9,7 @@ import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.simulation.dataholder.result
- */
+
 public class PVSimulationElement implements Serializable, CSVWriteable {
 
     protected double idealProduction; //Wh

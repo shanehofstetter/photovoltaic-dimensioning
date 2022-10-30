@@ -7,8 +7,7 @@ import javafx.scene.chart.XYChart;
 import java.util.ArrayList;
 
 /**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.pvcharts.linechart
+ *
  */
 public class PVYearOverviewLineChart extends ExtendedLineChart {
 

@@ -15,9 +15,7 @@ import java.util.Date;
 
 
 /**
- * This class Genarates a PDF File a Object of Type PDFDatacontainer is required
- *
- * @author Simon Müller : smueller@xiag.ch
+ * This class Generates a PDF File. Object of Type PDFDatacontainer is required
  */
 public class PDFGenerator {
 

@@ -8,10 +8,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.net
- */
+
 public class HttpGetRequest {
     static final Logger logger = LogManager.getLogger();
     private static final String REQUEST_METHOD = "GET";

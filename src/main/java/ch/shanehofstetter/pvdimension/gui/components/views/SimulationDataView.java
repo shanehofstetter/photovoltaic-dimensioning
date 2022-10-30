@@ -13,10 +13,7 @@ import java.time.Month;
 import java.time.format.TextStyle;
 import java.util.Locale;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components
- */
+
 public class SimulationDataView extends BorderPane {
 
     protected ComboBox monthCombo;

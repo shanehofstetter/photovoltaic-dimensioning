@@ -34,9 +34,7 @@ import org.apache.logging.log4j.Logger;
 import java.time.Month;
 import java.util.Optional;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- */
+
 public class MainPaneController extends MainPaneView implements MenubarController.PVMenuBarListener {
 
     static final Logger logger = LogManager.getLogger();

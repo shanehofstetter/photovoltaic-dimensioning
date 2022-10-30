@@ -7,10 +7,6 @@ import org.apache.logging.log4j.Logger;
 import java.io.File;
 import java.io.IOException;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- *         ch.shanehofstetter.pvdimension.io.csv
- */
 public class CSVWriterController {
     static final Logger logger = LogManager.getLogger();
 

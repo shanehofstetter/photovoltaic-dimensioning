@@ -14,10 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension
- */
+
 public class PVWeekSimulator extends PVSimulator {
 
     private static Month defaultSimulatingMonth = Month.JANUARY;

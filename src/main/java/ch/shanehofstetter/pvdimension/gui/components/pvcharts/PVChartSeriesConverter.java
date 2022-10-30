@@ -11,10 +11,7 @@ import java.time.format.TextStyle;
 import java.util.ArrayList;
 import java.util.Locale;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.pvcharts
- */
+
 public class PVChartSeriesConverter {
     static final Logger logger = LogManager.getLogger();
 

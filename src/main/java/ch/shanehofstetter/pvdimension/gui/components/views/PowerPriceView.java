@@ -9,10 +9,7 @@ import javafx.scene.layout.VBox;
 
 import java.util.Currency;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.views
- */
+
 public class PowerPriceView extends VBox {
 
     protected DoubleTextField buyingPriceField;

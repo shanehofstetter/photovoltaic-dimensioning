@@ -1,8 +1,6 @@
 package ch.shanehofstetter.pvdimension.gui.components.pvcharts;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- */
+
 public enum PVInputDataType {
     /**
      * Power Consumption

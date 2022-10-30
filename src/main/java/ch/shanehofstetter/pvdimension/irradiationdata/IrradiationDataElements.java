@@ -3,10 +3,7 @@ package ch.shanehofstetter.pvdimension.irradiationdata;
 import java.time.Month;
 import java.util.ArrayList;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.irradiationdata
- */
+
 public class IrradiationDataElements {
     private Month month;
     private ArrayList<IrradiationDataElement> irradiationDataElements;

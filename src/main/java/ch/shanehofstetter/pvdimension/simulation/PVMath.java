@@ -1,10 +1,7 @@
 package ch.shanehofstetter.pvdimension.simulation;
 
 import ch.shanehofstetter.pvdimension.util.Utilities;
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.simulation
- */
+
 public class PVMath {
 
     /**

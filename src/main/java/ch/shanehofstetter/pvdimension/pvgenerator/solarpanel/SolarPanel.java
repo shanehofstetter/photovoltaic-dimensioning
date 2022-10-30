@@ -10,9 +10,6 @@ import java.math.BigDecimal;
 /**
  * Solarpanel represents a physical Solarpanel<br>
  * It holds all important information about a Panel
- *
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension
  */
 public class SolarPanel implements Serializable {
 

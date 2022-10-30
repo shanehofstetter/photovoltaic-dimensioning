@@ -4,10 +4,6 @@ import java.time.LocalDate;
 import java.time.Month;
 import java.util.Date;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.util
- */
 public class DateTimeUtil {
 
     /**

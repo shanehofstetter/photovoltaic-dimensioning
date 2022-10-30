@@ -2,10 +2,7 @@ package ch.shanehofstetter.pvdimension.location;
 
 import java.io.Serializable;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension
- */
+
 public class Coordinates implements Serializable {
     private double longitude;
     private double latitude;

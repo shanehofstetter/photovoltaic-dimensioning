@@ -8,10 +8,7 @@ import javafx.scene.chart.NumberAxis;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.pvcharts
- */
+
 public class PVDayInputLineChart extends ExtendedLineChart {
 
     private PVDay pvDay;

@@ -9,9 +9,7 @@ import javafx.scene.control.Separator;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
 
-/**
- * @author Simon Müller
- */
+
 public class SolarPanelView extends BorderPane {
 
     public static final int DEFAULT_AMOUNT = 10;

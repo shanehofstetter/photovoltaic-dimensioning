@@ -4,10 +4,6 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.net.URL;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.io
- */
 public class FileReader {
 
     /**

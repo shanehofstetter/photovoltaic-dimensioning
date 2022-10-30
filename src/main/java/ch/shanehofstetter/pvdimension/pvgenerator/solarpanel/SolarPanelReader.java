@@ -4,10 +4,6 @@ import ch.shanehofstetter.pvdimension.io.FileReader;
 
 import java.util.ArrayList;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.pvgenerator.solarpanel
- */
 public class SolarPanelReader {
 
     /**

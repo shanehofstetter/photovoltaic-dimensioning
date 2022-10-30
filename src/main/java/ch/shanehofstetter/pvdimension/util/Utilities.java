@@ -2,9 +2,6 @@ package ch.shanehofstetter.pvdimension.util;
 
 /**
  * Utility class with helpful functions which are used by different packages
- * <p>
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension
  */
 public class Utilities {
 

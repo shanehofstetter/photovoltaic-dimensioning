@@ -16,8 +16,6 @@ import java.util.prefs.Preferences;
  * The currency configuration gets permanently stored on the system,<br>
  * it is not stored in project-specific objects<br>
  *
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- *         ch.shanehofstetter.pvdimension.economy
  */
 public class Economy {
 

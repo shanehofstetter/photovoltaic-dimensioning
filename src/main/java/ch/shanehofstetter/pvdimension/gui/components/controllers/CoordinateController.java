@@ -3,10 +3,7 @@ package ch.shanehofstetter.pvdimension.gui.components.controllers;
 import ch.shanehofstetter.pvdimension.gui.components.views.CoordinateView;
 import ch.shanehofstetter.pvdimension.location.Coordinates;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components
- */
+
 public class CoordinateController extends CoordinateView {
 
     private static final Coordinates DEFAULT_COORDINATES = new Coordinates(0, 0);

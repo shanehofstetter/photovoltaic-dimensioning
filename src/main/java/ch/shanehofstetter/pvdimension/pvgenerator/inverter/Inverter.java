@@ -5,10 +5,6 @@ import java.math.BigDecimal;
 
 /**
  * Inverter (unused class, support could be added in future)
- *
- *
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.pvgenerator
  */
 public class Inverter implements Serializable {
 

@@ -6,10 +6,6 @@ import javafx.scene.control.TitledPane;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.widgets
- */
 public class VTitledPane extends TitledPane {
 
     private VBox layoutBox;

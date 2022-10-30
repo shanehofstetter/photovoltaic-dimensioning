@@ -8,10 +8,6 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-/**
- * @author Shane Hofstetter - shane.hofstetter@gmail.com
- * ch.shanehofstetter.pvdimension.io
- */
 public class FileWriter {
 
     public void writeStringToFile(String content, Path resourcePath) throws WriteException {

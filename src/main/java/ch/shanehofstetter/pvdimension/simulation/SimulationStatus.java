@@ -1,9 +1,6 @@
 package ch.shanehofstetter.pvdimension.simulation;
 
-/**
- * Author: Shane Hofstetter - shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.simulation
- */
+
 public enum SimulationStatus {
     READY,
     NOT_READY;

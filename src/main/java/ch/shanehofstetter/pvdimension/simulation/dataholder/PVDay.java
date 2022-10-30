@@ -4,10 +4,6 @@ import ch.shanehofstetter.pvdimension.util.DateTimeUtil;
 
 import java.util.ArrayList;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension
- */
 public class PVDay extends PVSimulationElement {
 
     private static int defaultStartHour = 0;

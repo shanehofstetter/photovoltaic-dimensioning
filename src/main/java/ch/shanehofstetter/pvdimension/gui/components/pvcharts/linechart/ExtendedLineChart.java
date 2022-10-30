@@ -11,9 +11,7 @@ import org.apache.logging.log4j.Logger;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author Simon Müller
- */
+
 public class ExtendedLineChart extends LineChart<String, Number> {
 
     static final Logger logger = LogManager.getLogger();

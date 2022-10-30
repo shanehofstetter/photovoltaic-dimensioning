@@ -9,9 +9,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 
-/**
- * @author Simon Müller
- */
+
 public class SolarPanelController extends SolarPanelView {
 
     static final Logger logger = LogManager.getLogger();

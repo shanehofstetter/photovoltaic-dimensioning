@@ -4,9 +4,7 @@ import java.util.ArrayList;
 
 /**
  * Reads the given CSV Data from Webservice and parses it to an IrradiationDataElement-List
- * <p>
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension
+ *
  */
 public class IrradiationDataParser {
 

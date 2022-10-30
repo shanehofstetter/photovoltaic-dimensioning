@@ -8,10 +8,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.io.pvdata
- */
 public class PVSaveDialog extends PVFileDialog {
 
     private ArrayList<PVSaveDialogListener> listeners = new ArrayList<>();

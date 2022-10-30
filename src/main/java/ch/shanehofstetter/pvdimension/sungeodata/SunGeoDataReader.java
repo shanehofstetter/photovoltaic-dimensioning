@@ -19,9 +19,6 @@ import java.util.regex.Pattern;
  * Data is stored in .txt files with tab separators, SunGeoDataReader parses one file to an ArrayList of SunGeoDataElements
  * <p>
  * IMPORTANT: At the moment, only the location "baden" is supported and file path is hardcoded
- * <p>
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.sungeodata
  */
 public class SunGeoDataReader {
 

@@ -7,10 +7,7 @@ import ch.shanehofstetter.pvdimension.location.Coordinates;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components
- */
+
 public class AddressCoordinateController extends HBox {
 
     private AddressController addressController;

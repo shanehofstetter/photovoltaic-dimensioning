@@ -5,10 +5,7 @@ import ch.shanehofstetter.pvdimension.simulation.dataholder.PVWeek;
 
 import java.util.ArrayList;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.pvcharts
- */
+
 public class PVWeekOverviewLineChart extends ExtendedLineChart {
 
     public static final String DEFAULT_X_AXIS_TITLE = "Wochen-Verlauf";

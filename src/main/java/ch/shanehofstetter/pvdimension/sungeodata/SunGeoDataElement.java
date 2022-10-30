@@ -9,9 +9,6 @@ import java.util.Date;
 /**
  * Sun Geographic Data Element stores information about the sun at a time of the day
  * important information is: the time and the suns azimut, altitude in degrees at this time
- *
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.sungeodata
  */
 public class SunGeoDataElement {
     static final Logger logger = LogManager.getLogger();

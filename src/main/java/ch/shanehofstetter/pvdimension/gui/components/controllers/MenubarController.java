@@ -13,9 +13,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
-/**
- * @author Simon Müller : smueller@xiag.ch
- */
+
 public class MenubarController extends MenubarView {
 
     private ArrayList<PVMenuBarListener> listeners = new ArrayList<>();

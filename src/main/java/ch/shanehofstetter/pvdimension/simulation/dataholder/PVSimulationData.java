@@ -5,10 +5,7 @@ import ch.shanehofstetter.pvdimension.simulation.PVWeekSimulator;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.simulation.dataholder
- */
+
 public class PVSimulationData implements Serializable {
     private PVWeek pvWeek;
     private PVYear pvYear;

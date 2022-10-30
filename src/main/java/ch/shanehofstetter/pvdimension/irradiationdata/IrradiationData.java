@@ -9,9 +9,7 @@ import java.util.ArrayList;
 /**
  * this class computes the retrieved radiation data from the webservice which is
  * in 15min frequency, we adapt it for other time units
- * <p>
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.irradiationdata
+ *
  */
 public class IrradiationData {
 

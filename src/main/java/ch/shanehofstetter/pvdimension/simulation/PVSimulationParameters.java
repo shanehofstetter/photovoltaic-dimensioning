@@ -3,10 +3,7 @@ package ch.shanehofstetter.pvdimension.simulation;
 import java.io.Serializable;
 import java.time.Month;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.simulation
- */
+
 public class PVSimulationParameters implements Serializable {
     private Month simulatingMonth;
     private SunDataMode sunDataMode;

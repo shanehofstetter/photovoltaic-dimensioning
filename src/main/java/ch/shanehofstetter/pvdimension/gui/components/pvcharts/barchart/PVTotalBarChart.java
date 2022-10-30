@@ -5,10 +5,7 @@ import ch.shanehofstetter.pvdimension.simulation.dataholder.PVSimulationElement;
 import javafx.scene.chart.BarChart;
 import javafx.scene.chart.XYChart;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.pvcharts
- */
+
 public class PVTotalBarChart extends ExtendedBarChart {
     private PVChartSeriesConverter pvChartSeriesConverter = new PVChartSeriesConverter();
 

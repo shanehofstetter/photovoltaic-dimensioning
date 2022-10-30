@@ -9,8 +9,6 @@ import java.util.Date;
 
 /**
  * All members in Wh
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.simulation.dataholder
  */
 public class PVTimeUnit extends PVSimulationElement {
     static final Logger logger = LogManager.getLogger();

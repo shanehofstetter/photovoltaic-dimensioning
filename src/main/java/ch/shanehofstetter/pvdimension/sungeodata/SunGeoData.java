@@ -18,9 +18,6 @@ import java.util.ArrayList;
  *
  * In order to calculate this factor, some location-specific data is needed.
  * To calculate the factor for a specific time of a day, this class needs the suns angle and azimut at this time
- *
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.baden
  */
 public class SunGeoData {
     static final Logger logger = LogManager.getLogger();

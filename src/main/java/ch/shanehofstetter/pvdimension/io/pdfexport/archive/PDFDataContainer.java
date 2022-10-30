@@ -5,9 +5,7 @@ import javafx.scene.image.WritableImage;
 
 import java.util.ArrayList;
 
-/**
- * @author Simon Müller : smueller@xiag.ch
- */
+
 public class PDFDataContainer {
 
     private ArrayList<WritableImage> images;

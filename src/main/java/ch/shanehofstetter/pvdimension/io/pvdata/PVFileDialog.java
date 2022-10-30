@@ -6,10 +6,6 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.io.pvdata
- */
 public class PVFileDialog {
     protected static final Logger logger = LogManager.getLogger();
     private static File initialDir = new File(System.getProperty("user.home"));

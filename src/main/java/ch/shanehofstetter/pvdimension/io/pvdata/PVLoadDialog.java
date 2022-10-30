@@ -7,10 +7,6 @@ import javafx.stage.Window;
 import java.io.File;
 import java.util.ArrayList;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.io.pvdata
- */
 public class PVLoadDialog extends PVFileDialog {
     private ArrayList<PVLoadDialogListener> listeners = new ArrayList<>();
 

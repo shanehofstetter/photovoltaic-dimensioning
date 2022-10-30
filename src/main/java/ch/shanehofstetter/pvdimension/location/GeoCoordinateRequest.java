@@ -16,9 +16,6 @@ import java.io.StringReader;
 /**
  * Get the Coordinates for given Address, uses Google Maps Api
  * Therefore an internet connection is required
- * <p>
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.net
  */
 public class GeoCoordinateRequest {
 

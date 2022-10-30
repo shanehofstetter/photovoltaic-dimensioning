@@ -6,9 +6,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 
 
-/**
- * @author Simon Müller
- */
+
 public final class UserInputWidget extends HBox {
 
     private static final double MINFADERVALUE = 0;

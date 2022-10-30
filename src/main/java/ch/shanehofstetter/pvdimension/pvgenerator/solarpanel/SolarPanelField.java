@@ -4,10 +4,6 @@ package ch.shanehofstetter.pvdimension.pvgenerator.solarpanel;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension
- */
 public class SolarPanelField implements Serializable {
 
     private int amount;

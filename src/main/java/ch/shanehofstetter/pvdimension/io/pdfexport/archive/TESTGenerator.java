@@ -10,9 +10,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-/**
- * @author Simon Müller : smueller@xiag.ch
- */
+
 public class TESTGenerator extends Application {
 
     /**

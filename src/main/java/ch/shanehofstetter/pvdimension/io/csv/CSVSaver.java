@@ -8,12 +8,6 @@ import javafx.stage.Window;
 import java.io.File;
 import java.io.IOException;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * <br>
- * ch.shanehofstetter.pvdimension.io.csv
- *
- */
 public class CSVSaver {
 
     /**

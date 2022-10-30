@@ -17,8 +17,6 @@ import java.math.BigDecimal;
 /**
  * PVGenerator containing the complete PV-Installation components
  *
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension
  */
 public class PVGenerator implements Serializable {
 

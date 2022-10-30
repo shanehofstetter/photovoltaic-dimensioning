@@ -9,10 +9,7 @@ import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Date;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.simulation.dataholder
- */
+
 public class PVPowerTime implements Serializable {
 
     static final Logger logger = LogManager.getLogger();

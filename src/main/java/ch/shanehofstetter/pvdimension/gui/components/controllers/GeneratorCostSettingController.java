@@ -10,10 +10,7 @@ import java.util.ArrayList;
 import java.util.Currency;
 import java.util.List;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.controllers
- */
+
 public class GeneratorCostSettingController extends GeneratorCostSettingView {
     private PVGenerator pvGenerator;
     private List<GeneratorCostSettingChangeListener> listeners = new ArrayList<>();

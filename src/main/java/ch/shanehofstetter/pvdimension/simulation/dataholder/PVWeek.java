@@ -11,10 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension
- */
+
 public class PVWeek extends PVSimulationElement implements Serializable {
     static final Logger logger = LogManager.getLogger();
     protected List<PVDay> pvDays;

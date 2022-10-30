@@ -8,10 +8,7 @@ import java.time.Month;
 import java.time.format.TextStyle;
 import java.util.Locale;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.hofstetter
- */
+
 public class IrradiationDataRequest {
 
     private static final String URL = "http://re.jrc.ec.europa.eu/pvgis/apps4/DRcalc.php";

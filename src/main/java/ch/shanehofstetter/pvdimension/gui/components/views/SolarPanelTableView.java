@@ -9,10 +9,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.views
- */
+
 public class SolarPanelTableView extends BorderPane {
 
     protected TableView<SolarPanel> table = new TableView<>();

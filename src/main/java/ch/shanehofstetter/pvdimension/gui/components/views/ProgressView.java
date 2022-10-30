@@ -13,10 +13,7 @@ import javafx.stage.Stage;
 import javafx.stage.Window;
 import javafx.stage.WindowEvent;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.gui.components.views
- */
+
 public class ProgressView extends Stage {
 
     protected ProgressBar progressBar;

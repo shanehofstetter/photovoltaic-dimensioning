@@ -8,10 +8,7 @@ import java.time.format.TextStyle;
 import java.util.ArrayList;
 import java.util.Locale;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.simulation.dataholder
- */
+
 public class PVYear extends PVSimulationElement implements Serializable, CSVWriteable {
     private ArrayList<PVMonth> pvMonths;
 

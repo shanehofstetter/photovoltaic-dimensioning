@@ -2,10 +2,7 @@ package ch.shanehofstetter.pvdimension.gui.components.widgets;
 
 import javafx.scene.control.TextField;
 
-/**
- * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension
- */
+
 public class IntegerTextField extends TextField {
     @Override
     public void replaceText(int start, int end, String text) {
