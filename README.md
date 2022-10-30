@@ -1,6 +1,8 @@
 # PV-Dimension - Photovoltaic Systems Simulations
 Built during 3rd semester at ABBTS - Software Engineering & Project Management Course
 
+See the paper [here](./doc/Semesterarbeit.pdf).
+
 ## Disclaimer
 This tool was created during my studies as a school project in 2015. **No guarantee is given for accuracy or completeness.**
 
