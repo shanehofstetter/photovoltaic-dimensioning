@@ -1,4 +1,4 @@
-# PV-Dimension - Photovoltaic Systems Simulations
+# PV-Dimension - Photovoltaic Plant Simulator
 Built during 3rd semester at ABBTS - Software Engineering & Project Management Course
 
 See the paper [here](./doc/Semesterarbeit.pdf) (in german)
