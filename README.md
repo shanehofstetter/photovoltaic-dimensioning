@@ -1,7 +1,7 @@
 # PV-Dimension - Photovoltaic Systems Simulations
 Built during 3rd semester at ABBTS - Software Engineering & Project Management Course
 
-See the paper [here](./doc/Semesterarbeit.pdf) (in german).
+See the paper [here](./doc/Semesterarbeit.pdf) (in german)
 
 ## Disclaimer
 This tool was created during my studies as a school project in 2015. **No guarantee is given for accuracy or completeness.**
@@ -10,7 +10,7 @@ This tool was created during my studies as a school project in 2015. **No guaran
 It is a GUI application with which a PV system can be dimensioned.
 The calculation is based on the existing roof area, the power consumption profile and the weather data.
 
-<img width="1512" alt="image" src="https://user-images.githubusercontent.com/13404717/198888751-57df8735-0a5a-44ce-ad6a-05f9e2025ed7.png">
+<img width="1512" alt="image" src="https://user-images.githubusercontent.com/13404717/198888913-abdfa44a-2a81-4efe-acfb-ab24d561f342.png">
 
 ## Features
 - configure solar panel amount, size, efficiency, angles
