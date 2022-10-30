@@ -11,7 +11,6 @@ module ch.shanehofstetter.pvdimension {
     requires javafx.swing;
     requires itextpdf;
     requires org.apache.logging.log4j;
-    requires spring.boot;
 
     opens ch.shanehofstetter.pvdimension to javafx.fxml;
     opens ch.shanehofstetter.pvdimension.pvgenerator.solarpanel to javafx.base;
