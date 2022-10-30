@@ -6,7 +6,8 @@ import javafx.collections.ObservableList;
 import javafx.scene.control.ListView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.time.DayOfWeek;
 import java.time.format.TextStyle;
@@ -18,7 +19,7 @@ import java.util.Locale;
  */
 public class PVWeeklyResultChart extends HBox {
 
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(PVWeeklyResultChart.class);
+    static final Logger logger = LogManager.getLogger();
     private ListView<String> daysListView;
     private ObservableList<String> listItems;
     private PVWeek pvWeek;

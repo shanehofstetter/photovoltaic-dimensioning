@@ -8,8 +8,8 @@ import ch.shanehofstetter.pvdimension.pvgenerator.solarpanel.SolarPanelField;
 import ch.shanehofstetter.pvdimension.simulation.PVSimulationParameters;
 import ch.shanehofstetter.pvdimension.simulation.dataholder.PVSimulationData;
 import ch.shanehofstetter.pvdimension.util.Utilities;
-import org.slf4j.LoggerFactory;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -22,7 +22,7 @@ import java.math.BigDecimal;
  */
 public class PVGenerator implements Serializable {
 
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger("");
+    static final Logger logger = LogManager.getLogger();
 
     private static double defaultPerformanceRatio = 0.85;
     private static double defaultShadowFactor = 0.97;

@@ -1,14 +1,13 @@
 package ch.shanehofstetter.pvdimension.irradiationdata;
 
-
-
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.text.ParseException;
 import java.util.Date;
 
 public class IrradiationDataElement {
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger("");
+    static final Logger logger = LogManager.getLogger();
     private Date time;
     private double globalIrradiance;
     private double diffuseIrradiance;

@@ -12,7 +12,8 @@ import javafx.scene.control.ListView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.time.DayOfWeek;
 import java.time.format.TextStyle;
@@ -25,7 +26,8 @@ import java.util.Locale;
  * ch.shanehofstetter.pvdimension.gui.components.pvcharts
  */
 public class PVWeeklyInputChart extends VBox implements PVDayInputLineChart.PVDayInputChartListener {
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(PVWeeklyInputChart.class);
+    static final Logger logger = LogManager.getLogger();
+
     private final String dailyCheckboxTitle = "Täglich";
     private final String chartTitle = "";
     private final String xAxisTitle = "Tages-Verlauf";
@@ -86,7 +88,7 @@ public class PVWeeklyInputChart extends VBox implements PVDayInputLineChart.PVDa
     @Override
     public void dayChanged(PVDay changedDay) {
         logger.trace("Day Changed");
-        logger.trace(changedDay.toString());
+        logger.trace(changedDay);
         if (!dailyMode) {
             applyChangesToWholeWeek(changedDay);
         }

@@ -11,11 +11,11 @@ import javafx.scene.web.WebView;
  */
 public class HelpView extends Alert {
     public HelpView() {
-        super(AlertType.INFORMATION);
+        super(Alert.AlertType.INFORMATION);
         setTitle(ApplicationInfo.APPLICATION_TITLE_SHORT + " Hilfe");
         setHeaderText(ApplicationInfo.APPLICATION_TITLE_SHORT + " Hilfe");
 
-        String fileContent = FileReader.readStreamIntoString(getClass().getClassLoader().getResourceAsStream("ch/abbts/pvdimension/gui/help.html"));
+        String fileContent = FileReader.readStreamIntoString(getClass().getResourceAsStream("/ch/shanehofstetter/pvdimension/gui/help.html"));
         WebView helpView = new WebView();
         helpView.getEngine().loadContent(fileContent);
 

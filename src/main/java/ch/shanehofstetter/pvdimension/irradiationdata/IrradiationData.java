@@ -1,8 +1,8 @@
 package ch.shanehofstetter.pvdimension.irradiationdata;
 
 import ch.shanehofstetter.pvdimension.util.DateTimeUtil;
-import org.slf4j.LoggerFactory;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 
@@ -15,7 +15,7 @@ import java.util.ArrayList;
  */
 public class IrradiationData {
 
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(IrradiationData.class);
+    static final Logger logger = LogManager.getLogger();
     private ArrayList<IrradiationDataElement> irradiationDataElements;
 
     public IrradiationData() {

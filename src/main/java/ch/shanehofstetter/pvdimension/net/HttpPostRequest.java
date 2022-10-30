@@ -1,8 +1,7 @@
 package ch.shanehofstetter.pvdimension.net;
 
-
-
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -12,7 +11,7 @@ import java.net.URL;
 
 public class HttpPostRequest {
 
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger("");
+    static final Logger logger = LogManager.getLogger();
     private static final String REQUEST_METHOD = "POST";
 
     /**

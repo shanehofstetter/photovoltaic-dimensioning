@@ -1,8 +1,8 @@
 package ch.shanehofstetter.pvdimension.sungeodata;
 
 import ch.shanehofstetter.pvdimension.io.FileReader;
-import org.slf4j.LoggerFactory;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.time.Month;
 import java.time.format.TextStyle;
@@ -25,7 +25,8 @@ import java.util.regex.Pattern;
  */
 public class SunGeoDataReader {
 
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(SunGeoDataReader.class);
+    static final Logger logger = LogManager.getLogger();
+
 
     /**
      * Read and parse a file into an ArrayList
@@ -37,8 +38,7 @@ public class SunGeoDataReader {
     public ArrayList<SunGeoDataElement> readSunGeoData(Month month) throws Exception {
         String filename = month.getDisplayName(TextStyle.FULL, Locale.ENGLISH) + ".txt";
         logger.debug("reading: "+filename);
-//        String fileContent = FileReader.readFileToString(getClass().getResource("/ch/abbts/pvdimension/sungeodata/data/baden/" + filename));
-        String fileContent = FileReader.readStreamIntoString(getClass().getClassLoader().getResourceAsStream("ch/abbts/pvdimension/sungeodata/data/baden/" + filename));
+        String fileContent = FileReader.readStreamIntoString(getClass().getResourceAsStream("/ch/shanehofstetter/pvdimension/sungeodata/baden/" + filename));
         return parseData(fileContent);
     }
 

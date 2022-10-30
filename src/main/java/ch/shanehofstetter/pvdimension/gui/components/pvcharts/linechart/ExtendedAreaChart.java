@@ -36,9 +36,9 @@ public class ExtendedAreaChart extends AreaChart<String, Number> {
         }
     }
 
-    public void setData(ArrayList<Series<String, Number>> seriesArrayList) {
+    public void setData(ArrayList<XYChart.Series<String, Number>> seriesArrayList) {
         this.getData().clear();
-        for (Series<String, Number> series : seriesArrayList) {
+        for (XYChart.Series<String, Number> series : seriesArrayList) {
             this.getData().add(series);
             Node line = series.getNode().lookup(".chart-series-area-line");
             line.setStyle("-fx-stroke-width: 2px;");

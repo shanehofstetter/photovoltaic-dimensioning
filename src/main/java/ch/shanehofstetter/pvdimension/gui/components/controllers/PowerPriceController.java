@@ -4,7 +4,8 @@ import ch.shanehofstetter.pvdimension.economy.Economy;
 import ch.shanehofstetter.pvdimension.economy.PowerPrice;
 import ch.shanehofstetter.pvdimension.gui.components.views.PowerPriceView;
 import javafx.event.ActionEvent;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -15,7 +16,7 @@ import java.util.Currency;
  * ch.shanehofstetter.pvdimension.gui.components.controllers
  */
 public class PowerPriceController extends PowerPriceView {
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(PowerPriceController.class);
+    static final Logger logger = LogManager.getLogger();
     private PowerPrice powerPrice;
     private ArrayList<PowerPriceControlListener> listeners = new ArrayList<>();
 

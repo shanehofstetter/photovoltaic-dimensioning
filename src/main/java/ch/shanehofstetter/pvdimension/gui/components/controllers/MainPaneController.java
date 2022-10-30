@@ -28,7 +28,8 @@ import javafx.scene.control.ButtonType;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.time.Month;
 import java.util.Optional;
@@ -38,7 +39,7 @@ import java.util.Optional;
  */
 public class MainPaneController extends MainPaneView implements MenubarController.PVMenuBarListener {
 
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(MainPaneController.class);
+    static final Logger logger = LogManager.getLogger();
 
     protected PVGenerator pvGenerator;
     private SunpowerInputModeController.SunPowerInputMode sunPowerInputMode;
@@ -355,7 +356,7 @@ public class MainPaneController extends MainPaneView implements MenubarControlle
         simulate();
         pvGenerator.setBattery(battery);
         setDirty();
-        logger.debug(battery.toString());
+        logger.debug(battery);
     }
 
     /**
@@ -388,7 +389,7 @@ public class MainPaneController extends MainPaneView implements MenubarControlle
         simulate();
         pvGenerator.setSolarPanelField(solarPanelField);
         setDirty();
-        logger.debug(solarPanelField.toString());
+        logger.debug(solarPanelField);
     }
 
     /**

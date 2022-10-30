@@ -1,8 +1,8 @@
 package ch.shanehofstetter.pvdimension.io.pvdata;
 
 import javafx.stage.FileChooser;
-import org.slf4j.LoggerFactory;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 
@@ -11,7 +11,7 @@ import java.io.File;
  * ch.shanehofstetter.pvdimension.io.pvdata
  */
 public class PVFileDialog {
-    protected static final org.slf4j.Logger logger = LoggerFactory.getLogger(PVFileDialog.class);
+    protected static final Logger logger = LogManager.getLogger();
     private static File initialDir = new File(System.getProperty("user.home"));
     protected String defaultFilename = "PVProjekt.pv";
     private FileChooser.ExtensionFilter extensionFilter = new FileChooser.ExtensionFilter("PV-Simulator Datei (*.pv)", "*.pv");

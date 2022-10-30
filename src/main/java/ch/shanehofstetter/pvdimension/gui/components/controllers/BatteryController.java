@@ -2,7 +2,8 @@ package ch.shanehofstetter.pvdimension.gui.components.controllers;
 
 import ch.shanehofstetter.pvdimension.gui.components.views.BatteryView;
 import ch.shanehofstetter.pvdimension.pvgenerator.Battery;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 
@@ -12,7 +13,7 @@ import java.util.ArrayList;
  */
 public class BatteryController extends BatteryView {
 
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(BatteryController.class);
+    private static final Logger logger = LogManager.getLogger();
     private Battery battery;
     private ArrayList<BatteryControlListener> listeners = new ArrayList<>();
 
@@ -58,7 +59,7 @@ public class BatteryController extends BatteryView {
         logger.trace("capacitykWh: " + capacitykWh);
         battery.setCapacityWh(capacitykWh * 1000);
         initialChargeLevelWidget.setSliderMax(battery.getCapacitykWh());
-        initialChargeLevelWidget.getSlider().setMajorTickUnit(battery.getCapacitykWh() / 10);
+        initialChargeLevelWidget.getSlider().setMajorTickUnit(battery.getCapacitykWh() > 0 ? battery.getCapacitykWh() / 10 : 1);
         initialChargeLevelWidget.getSlider().setMinorTickCount(4);
         batteryChanged();
     }

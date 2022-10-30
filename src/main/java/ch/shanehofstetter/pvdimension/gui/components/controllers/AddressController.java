@@ -4,7 +4,8 @@ import ch.shanehofstetter.pvdimension.gui.components.views.AddressView;
 import ch.shanehofstetter.pvdimension.location.Address;
 import javafx.beans.Observable;
 import javafx.event.ActionEvent;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 
@@ -13,7 +14,7 @@ import java.util.ArrayList;
  * ch.shanehofstetter.pvdimension.gui.components
  */
 public class AddressController extends AddressView {
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(AddressController.class);
+    private static final Logger logger = LogManager.getLogger();
     private static final Address DEFAULT_ADDRESS = new Address("", "", "Baden", "", "Schweiz");
 
     private Address address;

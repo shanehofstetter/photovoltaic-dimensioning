@@ -1,9 +1,8 @@
 package ch.shanehofstetter.pvdimension.simulation.dataholder;
 
 
-
-
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.text.ParseException;
 import java.util.Date;
@@ -14,7 +13,7 @@ import java.util.Date;
  * ch.shanehofstetter.pvdimension.simulation.dataholder
  */
 public class PVTimeUnit extends PVSimulationElement {
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger("");
+    static final Logger logger = LogManager.getLogger();
 
     private Date time;
 

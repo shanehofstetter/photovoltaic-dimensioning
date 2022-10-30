@@ -2,8 +2,8 @@ package ch.shanehofstetter.pvdimension.simulation;
 
 import ch.shanehofstetter.pvdimension.pvgenerator.PVGenerator;
 import ch.shanehofstetter.pvdimension.simulation.dataholder.PVSimulationElement;
-import org.slf4j.LoggerFactory;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 
@@ -14,7 +14,7 @@ import java.util.ArrayList;
  *         ch.shanehofstetter.pvdimension.simulation
  */
 public abstract class PVSimulator {
-    protected static final org.slf4j.Logger logger = LoggerFactory.getLogger("");
+    static final Logger logger = LogManager.getLogger();
     protected PVGenerator pvGenerator;
     protected ArrayList<PVSimulatorListener> listeners = new ArrayList<>();
     protected boolean simulationActive = false;

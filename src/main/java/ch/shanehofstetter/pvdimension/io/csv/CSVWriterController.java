@@ -1,8 +1,8 @@
 package ch.shanehofstetter.pvdimension.io.csv;
 
 import ch.shanehofstetter.pvdimension.pvgenerator.PVGenerator;
-import org.slf4j.LoggerFactory;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 import java.io.IOException;
@@ -12,7 +12,7 @@ import java.io.IOException;
  *         ch.shanehofstetter.pvdimension.io.csv
  */
 public class CSVWriterController {
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(CSVWriterController.class);
+    static final Logger logger = LogManager.getLogger();
 
     /**
      * writes multiple .csv files into the given directory<br>

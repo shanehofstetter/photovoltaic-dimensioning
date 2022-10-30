@@ -3,8 +3,8 @@ package ch.shanehofstetter.pvdimension.io.pdfexport.archive;
 import com.itextpdf.text.*;
 import com.itextpdf.text.pdf.PdfWriter;
 import javafx.embed.swing.SwingFXUtils;
-import org.slf4j.LoggerFactory;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import javax.imageio.ImageIO;
 import java.io.ByteArrayOutputStream;
@@ -21,7 +21,7 @@ import java.util.Date;
  */
 public class PDFGenerator {
 
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(PDFGenerator.class);
+    static final Logger logger = LogManager.getLogger();
     private static final int ALIGNEMENT_LEFT = 0;
     private static final int ALIGNEMENT_CETNER = 1;
     private static final int ALIGNEMENT_RIGHT = 2;
@@ -31,7 +31,7 @@ public class PDFGenerator {
         Paragraph title;
         try {
             Long currentTime = new Date().getTime();
-            logger.debug(currentTime.toString());
+            logger.debug(currentTime);
             String userHomeFolder = System.getProperty("user.home");
             OutputStream file = new FileOutputStream(new File(userHomeFolder, "Desktop/PVDimensionData_" + currentTime + ".pdf"));
             Document document = new Document(PageSize.A4, 20, 20, 50, 25);

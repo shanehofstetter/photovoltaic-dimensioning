@@ -1,8 +1,7 @@
 package ch.shanehofstetter.pvdimension.net;
 
-
-
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import javax.net.ssl.HttpsURLConnection;
 import java.io.BufferedReader;
@@ -14,7 +13,7 @@ import java.net.URL;
  * ch.shanehofstetter.pvdimension.net
  */
 public class HttpGetRequest {
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger("");
+    static final Logger logger = LogManager.getLogger();
     private static final String REQUEST_METHOD = "GET";
     private static final String USER_AGENT = "Mozilla/5.0";
 

@@ -5,7 +5,8 @@ import javafx.geometry.Point2D;
 import javafx.scene.Cursor;
 import javafx.scene.Node;
 import javafx.scene.chart.*;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +16,7 @@ import java.util.List;
  */
 public class ExtendedLineChart extends LineChart<String, Number> {
 
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(ExtendedLineChart.class);
+    static final Logger logger = LogManager.getLogger();
 
     public static double defaultLowerLimit = 0;
     public static double defaultUpperLimit = 100;
@@ -54,9 +55,9 @@ public class ExtendedLineChart extends LineChart<String, Number> {
 //        ((NumberAxis)getYAxis()).setForceZeroInRange(false);
     }
 
-    public void setData(ArrayList<Series<String, Number>> seriesArrayList) {
+    public void setData(ArrayList<XYChart.Series<String, Number>> seriesArrayList) {
         this.getData().clear();
-        for (Series<String, Number> series : seriesArrayList) {
+        for (XYChart.Series<String, Number> series : seriesArrayList) {
             this.getData().add(series);
         }
         if (isInteractive) {
@@ -64,7 +65,7 @@ public class ExtendedLineChart extends LineChart<String, Number> {
         }
     }
 
-    public void setSingleLineData(Series<String, Number> series) {
+    public void setSingleLineData(XYChart.Series<String, Number> series) {
         this.getData().clear();
         this.getData().add(series);
         if (isInteractive) {

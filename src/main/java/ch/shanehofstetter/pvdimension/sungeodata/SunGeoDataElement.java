@@ -1,8 +1,7 @@
 package ch.shanehofstetter.pvdimension.sungeodata;
 
-
-
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.text.ParseException;
 import java.util.Date;
@@ -15,7 +14,7 @@ import java.util.Date;
  * ch.shanehofstetter.pvdimension.sungeodata
  */
 public class SunGeoDataElement {
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(SunGeoDataElement.class);
+    static final Logger logger = LogManager.getLogger();
     private Date time;
     private double azimut;
     private double altitude;

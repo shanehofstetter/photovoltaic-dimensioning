@@ -16,7 +16,6 @@ public class PVYear extends PVSimulationElement implements Serializable, CSVWrit
     private ArrayList<PVMonth> pvMonths;
 
     public PVYear() {
-        this.pvMonths = new ArrayList<>();
     }
 
     public PVYear(ArrayList<PVMonth> pvMonths) {

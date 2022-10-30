@@ -1,7 +1,8 @@
 package ch.shanehofstetter.pvdimension.simulation.dataholder;
 
 import ch.shanehofstetter.pvdimension.util.DateTimeUtil;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.Serializable;
 import java.text.ParseException;
@@ -14,7 +15,7 @@ import java.util.Date;
  */
 public class PVPowerTime implements Serializable {
 
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger("");
+    static final Logger logger = LogManager.getLogger();
     private double power;
     private Date time;
 

@@ -4,7 +4,8 @@ package ch.shanehofstetter.pvdimension.gui.components.controllers;
 import ch.shanehofstetter.pvdimension.gui.components.views.SolarPanelView;
 import ch.shanehofstetter.pvdimension.pvgenerator.solarpanel.SolarPanel;
 import ch.shanehofstetter.pvdimension.pvgenerator.solarpanel.SolarPanelField;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 
@@ -13,7 +14,7 @@ import java.util.ArrayList;
  */
 public class SolarPanelController extends SolarPanelView {
 
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(MainPaneController.class);
+    static final Logger logger = LogManager.getLogger();
     private SolarPanelField solarPanelField;
     private ArrayList<SolarPanelControlListener> listeners = new ArrayList<>();
 

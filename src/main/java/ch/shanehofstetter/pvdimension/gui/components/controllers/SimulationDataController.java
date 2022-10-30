@@ -1,7 +1,8 @@
 package ch.shanehofstetter.pvdimension.gui.components.controllers;
 
 import ch.shanehofstetter.pvdimension.gui.components.views.SimulationDataView;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.time.Month;
 import java.time.format.TextStyle;
@@ -14,7 +15,7 @@ import java.util.Locale;
  */
 public class SimulationDataController extends SimulationDataView {
 
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(SimulationDataController.class);
+    static final Logger logger = LogManager.getLogger();
     private ArrayList<SimulationDataControlMonthListener> monthListeners = new ArrayList<>();
 
     public SimulationDataController() {

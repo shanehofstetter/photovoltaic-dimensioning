@@ -12,8 +12,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.Tooltip;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
-import org.slf4j.LoggerFactory;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +23,7 @@ import java.util.List;
  */
 public class InputWidget extends HBox {
 
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(InputWidget.class);
+    static final Logger logger = LogManager.getLogger();
     protected String labelText;
     protected boolean useSlider;
     protected Slider slider;

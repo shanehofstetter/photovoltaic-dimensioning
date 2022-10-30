@@ -25,7 +25,7 @@ public class PVYearOverviewLineChart extends ExtendedLineChart {
 
     public void setPVMonths(ArrayList<PVMonth> pvMonths) {
         PVChartSeriesConverter converter = new PVChartSeriesConverter();
-        ArrayList<Series<String, Number>> overviewResultChartSeries = converter.getMonthlyResultSeriesForYear(pvMonths);
+        ArrayList<XYChart.Series<String, Number>> overviewResultChartSeries = converter.getMonthlyResultSeriesForYear(pvMonths);
         setData(overviewResultChartSeries);
     }
 }

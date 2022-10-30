@@ -3,7 +3,8 @@ package ch.shanehofstetter.pvdimension.economy;
 
 import ch.shanehofstetter.pvdimension.io.FileReader;
 import ch.shanehofstetter.pvdimension.io.FileWriter;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.*;
 import java.util.prefs.Preferences;
@@ -21,7 +22,7 @@ import java.util.prefs.Preferences;
 public class Economy {
 
     public static final String DEFAULT_CURRENCY_CODE = "CHF";
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(Economy.class);
+    static final Logger logger = LogManager.getLogger();
     private static Currency currency = Currency.getInstance(DEFAULT_CURRENCY_CODE);
     private static String currencyPreferenceID = "CURRENCY";
     private static List<String> currencyCodes = Arrays.asList(
@@ -118,7 +119,7 @@ public class Economy {
     private static void saveCurrencyToLocalConfig() {
         FileWriter writer = new FileWriter();
         try {
-            writer.writeStringToPath(currency.getCurrencyCode(), Economy.class.getClassLoader().getResource("ch/abbts/pvdimension/economy/currency.pref"));
+            writer.writeStringToPath(currency.getCurrencyCode(), Economy.class.getClassLoader().getResource("ch/shanehofstetter/pvdimension/economy/currency.pref"));
         } catch (Exception e) {
             logger.error("failed to save currency code to local file: " + e.getMessage(), e);
         }
@@ -132,7 +133,7 @@ public class Economy {
         String currencyPref = null;
         try {
             currencyPref = FileReader.readStreamIntoString(
-                    Economy.class.getClassLoader().getResourceAsStream("ch/abbts/pvdimension/economy/currency.pref"));
+                    Economy.class.getClassLoader().getResourceAsStream("ch/shanehofstetter/pvdimension/economy/currency.pref"));
         } catch (Exception e) {
             logger.error("failed to load currency setting from local file: " + e.getMessage(), e);
         }

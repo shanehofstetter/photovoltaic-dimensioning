@@ -2,8 +2,8 @@ package ch.shanehofstetter.pvdimension.sungeodata;
 
 import ch.shanehofstetter.pvdimension.pvgenerator.solarpanel.SolarPanelField;
 import ch.shanehofstetter.pvdimension.util.DateTimeUtil;
-import org.slf4j.LoggerFactory;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.time.Month;
 import java.util.ArrayList;
@@ -20,10 +20,10 @@ import java.util.ArrayList;
  * To calculate the factor for a specific time of a day, this class needs the suns angle and azimut at this time
  *
  * @author Shane Hofstetter : shane.hofstetter@gmail.com<br>
- * ch.shanehofstetter.pvdimension.sungeodata.data.baden
+ * ch.shanehofstetter.pvdimension.baden
  */
 public class SunGeoData {
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger("");
+    static final Logger logger = LogManager.getLogger();
     private ArrayList<SunGeoDataElement> cachedSunGeoData;
     private Month cachedMonth;
 

@@ -2,9 +2,6 @@ package ch.shanehofstetter.pvdimension.pvgenerator.solarpanel;
 
 import ch.shanehofstetter.pvdimension.io.FileReader;
 
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileInputStream;
 import java.util.ArrayList;
 
 /**
@@ -20,8 +17,7 @@ public class SolarPanelReader {
      * @throws Exception
      */
     public ArrayList<SolarPanel> readModules() throws Exception {
-        File f = new File("src/ch/abbts/pvdimension/pvgenerator/solarpanel/database/modules.txt");
-        String fileContent = FileReader.readStreamIntoString(new BufferedInputStream(new FileInputStream(f)));
+        String fileContent = FileReader.readStreamIntoString(getClass().getResourceAsStream("/ch/shanehofstetter/pvdimension/pvgenerator/solarpanel/database/modules.txt"));
         return parseData(fileContent);
     }
 

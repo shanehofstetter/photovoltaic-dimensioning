@@ -3,8 +3,8 @@ package ch.shanehofstetter.pvdimension.irradiationdata;
 import ch.shanehofstetter.pvdimension.location.Coordinates;
 import ch.shanehofstetter.pvdimension.pvgenerator.solarpanel.SolarPanelField;
 import ch.shanehofstetter.pvdimension.util.DateTimeUtil;
-import org.slf4j.LoggerFactory;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.time.Month;
 import java.util.ArrayList;
@@ -16,7 +16,7 @@ import java.util.Date;
  */
 public class IrradiationDataFetcher {
 
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger("");
+    static final Logger logger = LogManager.getLogger();
     private ArrayList<IrradiationDataElements> cachedIrradiationDataElementsList = new ArrayList<>();
     private Coordinates cachedCoordinates = new Coordinates();
     private SolarPanelField cachedSolarPanelField = new SolarPanelField();

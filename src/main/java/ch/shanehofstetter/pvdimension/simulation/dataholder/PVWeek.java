@@ -1,8 +1,7 @@
 package ch.shanehofstetter.pvdimension.simulation.dataholder;
 
-
-
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.Serializable;
 import java.time.DayOfWeek;
@@ -17,7 +16,7 @@ import java.util.Locale;
  * ch.shanehofstetter.pvdimension
  */
 public class PVWeek extends PVSimulationElement implements Serializable {
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger("");
+    static final Logger logger = LogManager.getLogger();
     protected List<PVDay> pvDays;
 
     public PVWeek() {

@@ -1,8 +1,8 @@
 package ch.shanehofstetter.pvdimension.location;
 
 import ch.shanehofstetter.pvdimension.net.HttpGetRequest;
-
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
@@ -22,7 +22,7 @@ import java.io.StringReader;
  */
 public class GeoCoordinateRequest {
 
-    private static final org.slf4j.Logger logger = LoggerFactory.getLogger("");
+    static final Logger logger = LogManager.getLogger();
     private static final String WEBSERVICE_ADDRESS = "https://maps.googleapis.com/maps/api/geocode/xml?address=";
 
     /**
@@ -52,8 +52,7 @@ public class GeoCoordinateRequest {
      * @throws NumberFormatException
      */
     private static Coordinates getCoordinatesFromXMLResult(String xml) throws ParserConfigurationException, IOException, SAXException, NumberFormatException {
-        DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory
-                .newInstance();
+        DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
         InputSource is = new InputSource(new StringReader(xml));
         Document document = documentBuilder.parse(is);
