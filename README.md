@@ -21,5 +21,6 @@ The calculation is based on the existing roof area, the power consumption profil
 - generate reports (csv, pdf)
 
 ## Todo/Known Issues
--[] Getting lat/long of an address via Google Maps needs an api key and does not work right now (anymore)
-    - solutions: replace with a different api, allow lat/long to be entered manually, add possibility to add api key
+
+- Getting lat/long of an address via Google Maps needs an api key and does not work right now (anymore)
+  - solutions: replace with a different api, allow lat/long to be entered manually, add possibility to add api key
