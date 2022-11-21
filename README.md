@@ -1,10 +1,9 @@
 # PV-Dimension - Photovoltaic Plant Simulator
+![pvdimension_icon_128](https://user-images.githubusercontent.com/13404717/203074755-c3fc59c7-d03e-4a30-a5ad-d1427d12403c.png)
+
 Built during 3rd semester at ABBTS - Software Engineering & Project Management Course
 
 See the paper [here](./doc/Semesterarbeit.pdf) (in german)
-
-## Disclaimer
-This tool was created during my studies as a school project in 2015. **No guarantee is given for accuracy or completeness.**
 
 ## What is it?
 It is a GUI application with which a PV system can be dimensioned.
